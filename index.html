@@ -933,7 +933,7 @@
         <thead><tr><th>Campo</th><th>Descripción</th><th>Opciones</th></tr></thead>
         <tbody>
           <tr><td class="field-name">Estado Hospitalización</td><td>Estado actual del paciente</td><td>Hospitalizado / Alta</td></tr>
-          <tr><td class="field-name">Cama <span class="required-badge">*</span></td><td>Tipo de cama actual (solo si no es HCMS)</td><td>MQ / UTI / UCI / AISLAMIENTO</td></tr>
+          <tr><td class="field-name">Cama </td><td>Tipo de cama actual (solo si no es HCMS)</td><td>MQ / UTI / UCI / AISLAMIENTO</td></tr>
           <tr><td class="field-name">Clínica / Prestador</td><td>Nombre de la clínica (solo si no está en HCMS)</td><td>Selector</td></tr>
           <tr><td class="field-name">QX (Quirúrgico)</td><td>Si el paciente es quirúrgico</td><td>Sí / No</td></tr>
           <tr><td class="field-name">Comentario</td><td>Se almacena en bitácora del paciente</td><td>Texto libre</td></tr>
@@ -1527,29 +1527,22 @@
       <table class="field-table">
         <thead><tr><th>Campo</th><th>Descripción</th><th>Formato / Opciones</th></tr></thead>
         <tbody>
-          <tr><td class="field-name">Nombre Médico <span class="required-badge">*</span></td><td>Nombre del médico tratante</td><td>Texto libre</td></tr>
-          <tr><td class="field-name">Fecha Ingreso Atención <span class="required-badge">*</span></td><td>Fecha y hora de ingreso a atención</td><td>Fecha + hora</td></tr>
-          <tr><td class="field-name">Agencia <span class="required-badge">*</span></td><td>Agencia que crea la solicitud</td><td>Selector</td></tr>
-          <tr><td class="field-name">Nombre Paciente <span class="required-badge">*</span></td><td>Nombre completo del paciente</td><td>Texto libre</td></tr>
-          <tr><td class="field-name">RUT Paciente <span class="required-badge">*</span></td><td>Sin puntos y con guion</td><td>Ej: 12345678-9</td></tr>
-          <tr><td class="field-name">CAS <span class="required-badge">*</span></td><td>Centro de atención asociado</td><td>Selector</td></tr>
-          <tr><td class="field-name">Nº Siniestro <span class="required-badge">*</span></td><td>Número de siniestro del accidente</td><td>Número</td></tr>
+          <tr><td class="field-name">Nombre Médico </td><td>Nombre del médico tratante</td><td>Texto libre</td></tr>
+          <tr><td class="field-name">Fecha Ingreso Atención </td><td>Fecha y hora de ingreso a atención</td><td>Fecha + hora</td></tr>
+          <tr><td class="field-name">Agencia </td><td>Agencia que crea la solicitud</td><td>Selector</td></tr>
+          <tr><td class="field-name">Nombre Paciente </td><td>Nombre completo del paciente</td><td>Texto libre</td></tr>
+          <tr><td class="field-name">RUT Paciente </td><td>Sin puntos y con guion</td><td>Ej: 12345678-9</td></tr>
+          <tr><td class="field-name">CAS </td><td>Centro de atención asociado</td><td>Selector</td></tr>
+          <tr><td class="field-name">Nº Siniestro </span></td><td>Número de siniestro del accidente</td><td>Número</td></tr>
           <tr><td class="field-name">Paciente Hospitalizado</td><td>Si el paciente está actualmente hospitalizado</td><td>Sí / No</td></tr>
-          <tr><td class="field-name">Nº Orden Clínica <span class="required-badge">*</span></td><td>Número entre 800.000 y 1.600.000</td><td>Número</td></tr>
+          <tr><td class="field-name">Nº Orden Clínica </td><td>Número entre 800.000 y 1.600.000</td><td>Número</td></tr>
           <tr><td class="field-name">Fecha Probable Cirugía</td><td>Fecha estimada de la intervención</td><td>Selector de fecha</td></tr>
-          <tr><td class="field-name">Fecha Orden Clínica <span class="required-badge">*</span></td><td>Fecha y hora de la orden clínica</td><td>Fecha + hora</td></tr>
+          <tr><td class="field-name">Fecha Orden Clínica </td><td>Fecha y hora de la orden clínica</td><td>Fecha + hora</td></tr>
           <tr><td class="field-name">Tipo Indicación Quirúrgica</td><td>Tipo de indicación</td><td>Urgente / Programada</td></tr>
-          <tr><td class="field-name">Código Prestaciones <span class="required-badge">*</span></td><td>Código(s) de las prestaciones requeridas</td><td>Código numérico</td></tr>
-          <tr><td class="field-name">Prestaciones <span class="required-badge">*</span></td><td>Descripción de las prestaciones</td><td>Texto · Botón "Agregar Prestaciones"</td></tr>
+          <tr><td class="field-name">Código Prestaciones </td><td>Código(s) de las prestaciones requeridas</td><td>Código numérico</td></tr>
+          <tr><td class="field-name">Prestaciones </td><td>Descripción de las prestaciones</td><td>Texto · Botón "Agregar Prestaciones"</td></tr>
         </tbody>
       </table>
-
-      <div class="callout callout-warning">
-        <span class="callout-icon">⚠️</span>
-        <div class="callout-body">
-          <strong>Todos los campos en rojo son obligatorios.</strong> La solicitud no podrá crearse si faltan datos requeridos.
-        </div>
-      </div>
     </div>
   </section>
 
